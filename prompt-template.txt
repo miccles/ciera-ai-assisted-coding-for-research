@@ -1,0 +1,30 @@
+Fill in the two blanks, paste the prompt into the chat, and read the
+agent's plan before you approve any edit.
+
+------------------------------------------------------------------------
+Context:
+This repository models a normalized Gaussian PSF.
+
+Task:
+Find the untested edge case in __________ and add a test for it.
+
+Constraints:
+Do not change the mathematical model or the public API.
+Before editing, explain your plan.
+
+Verification:
+Run __________.
+Existing results must not change.
+------------------------------------------------------------------------
+
+Stretch (optional): replace the Task and Verification sections with:
+
+Task:
+Replace the slow nested loop in __________ without changing the
+numerical result.
+
+Verification:
+Run __________.
+Add a test that compares the new implementation with the original loop
+for several widths, image sizes, and centres, using a tolerance you can
+justify.
